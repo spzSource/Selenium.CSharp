@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TargetClasses>
+  <TargetClass name="HomePage">
+    <Field field_name="MenuBlock" locator="//td[contains(.,'menu')]"/>
+    <Field field_name="BannersBlock" locator="//td[contains(.,'banners')]"/>
+    <Field field_name="FooterBlock" locator="//td[contains(.,'CoolSoft by Somebody')]"/>
+
+    <Field field_name="NameInput" locator="//input[@name='name']"/>
+    <Field field_name="HeightInput" locator="//input[@name='height']"/>
+    <Field field_name="WeightInput" locator="//input[@name='weight']"/>
+    <Field field_name="GenderCheckBox" locator="//input[@name='gender']"/>
+
+    <Field field_name="CalculateButton" locator="//input[@type='submit']"/>
+    <Field field_name="HeightWeightDisproportion" locator="//td[contains(.,'Слишком малая масса тела')]"/>
+    <Field field_name="HeightWeightValidation" locator="//form//td[contains(.,'Рост должен быть в диапазоне 50-300 см.')]"/>
+
+    <Field field_name="DateLabel" locator="//td[contains(.,'Сегодня:')]"/>
+  </TargetClass>
+</TargetClasses>

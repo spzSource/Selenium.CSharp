@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tests>
+	<test_data name="HomeTest">
+		<data_item name="Some name" height="50" weight="3" gender="m"/>
+	</test_data>
+
+	<test_data name="HomeTestSecond">
+		<data_item name="Some name" height="wrong height" weight="wrong weight" gender="m"/>
+	</test_data>
+</tests>

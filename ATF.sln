@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22310.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATF.Core", "ATFramework\ATF.Core.csproj", "{50897A9F-85A6-499D-BFD6-835895BDCEDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab4.Test.Automation", "Lab4.Test.Automation\Lab4.Test.Automation.csproj", "{AE071A00-9F52-4C39-9DAE-A6D472F630C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATF.Logging", "AT.Logging\ATF.Logging.csproj", "{91ED9C09-77CD-4B9D-891A-01A95E6B22AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATF.Core.WebElements", "ATF.Core.WebElements\ATF.Core.WebElements.csproj", "{220A7364-06CE-4F69-8E8D-CE19EAC2B185}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATF.Core.Driver", "ATF.Core.Driver\ATF.Core.Driver.csproj", "{E5858FD8-7F6A-43FF-B07B-605204BF8112}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATF.Core.Test", "ATF.Core.Test\ATF.Core.Test.csproj", "{9BD3FD55-F62F-4493-AD2A-B6AB3321B4D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATF.Core.Driver.Firefox", "ATF.Core.Driver.Forefox\ATF.Core.Driver.Firefox.csproj", "{41C9E6B2-61B5-47AF-B6E3-EDB289CFAB50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATF.Core.Test.Config.Xml", "ATF.Core.Test.Config.Xml\ATF.Core.Test.Config.Xml.csproj", "{18381E37-0789-4E7F-A2AD-A3BBEA3788E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATF.Core.WebElements.Binder", "ATF.Core.WebElements.Binder\ATF.Core.WebElements.Binder.csproj", "{F92433A8-F857-41CD-BF6E-C94858BD44A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATF.Core.WebElements.Binder.Config.Xml", "ATF.Core.WebElements.Binder.Config.Xml\ATF.Core.WebElements.Binder.Config.Xml.csproj", "{449F0580-7BFF-4A2B-A6FB-FD63BB738D79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATF.Core.WebElements.Binder.Config", "ATF.Core.WebElements.Binder.Config\ATF.Core.WebElements.Binder.Config.csproj", "{D954FB8D-FEE4-43B9-A2BA-BB751ADA857F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50897A9F-85A6-499D-BFD6-835895BDCEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50897A9F-85A6-499D-BFD6-835895BDCEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50897A9F-85A6-499D-BFD6-835895BDCEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50897A9F-85A6-499D-BFD6-835895BDCEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE071A00-9F52-4C39-9DAE-A6D472F630C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE071A00-9F52-4C39-9DAE-A6D472F630C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE071A00-9F52-4C39-9DAE-A6D472F630C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE071A00-9F52-4C39-9DAE-A6D472F630C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91ED9C09-77CD-4B9D-891A-01A95E6B22AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91ED9C09-77CD-4B9D-891A-01A95E6B22AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91ED9C09-77CD-4B9D-891A-01A95E6B22AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91ED9C09-77CD-4B9D-891A-01A95E6B22AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{220A7364-06CE-4F69-8E8D-CE19EAC2B185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{220A7364-06CE-4F69-8E8D-CE19EAC2B185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{220A7364-06CE-4F69-8E8D-CE19EAC2B185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{220A7364-06CE-4F69-8E8D-CE19EAC2B185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5858FD8-7F6A-43FF-B07B-605204BF8112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5858FD8-7F6A-43FF-B07B-605204BF8112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5858FD8-7F6A-43FF-B07B-605204BF8112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5858FD8-7F6A-43FF-B07B-605204BF8112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BD3FD55-F62F-4493-AD2A-B6AB3321B4D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD3FD55-F62F-4493-AD2A-B6AB3321B4D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD3FD55-F62F-4493-AD2A-B6AB3321B4D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD3FD55-F62F-4493-AD2A-B6AB3321B4D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41C9E6B2-61B5-47AF-B6E3-EDB289CFAB50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41C9E6B2-61B5-47AF-B6E3-EDB289CFAB50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41C9E6B2-61B5-47AF-B6E3-EDB289CFAB50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41C9E6B2-61B5-47AF-B6E3-EDB289CFAB50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18381E37-0789-4E7F-A2AD-A3BBEA3788E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18381E37-0789-4E7F-A2AD-A3BBEA3788E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18381E37-0789-4E7F-A2AD-A3BBEA3788E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18381E37-0789-4E7F-A2AD-A3BBEA3788E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F92433A8-F857-41CD-BF6E-C94858BD44A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F92433A8-F857-41CD-BF6E-C94858BD44A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F92433A8-F857-41CD-BF6E-C94858BD44A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F92433A8-F857-41CD-BF6E-C94858BD44A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{449F0580-7BFF-4A2B-A6FB-FD63BB738D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{449F0580-7BFF-4A2B-A6FB-FD63BB738D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{449F0580-7BFF-4A2B-A6FB-FD63BB738D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{449F0580-7BFF-4A2B-A6FB-FD63BB738D79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D954FB8D-FEE4-43B9-A2BA-BB751ADA857F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D954FB8D-FEE4-43B9-A2BA-BB751ADA857F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D954FB8D-FEE4-43B9-A2BA-BB751ADA857F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D954FB8D-FEE4-43B9-A2BA-BB751ADA857F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Lab4.Test.Automation\Lab4.Test.Automation.csproj
+	EndGlobalSection
+EndGlobal
